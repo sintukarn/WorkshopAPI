@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69a114be-d15a-461b-b7f3-df5fd668709c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/gin-gonic/gin.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/gin-gonic/gin/binding.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/gin-gonic/gin/render.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/golang/protobuf/proto.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/manucorporat/sse.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/stretchr/testify/assert.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/stretchr/testify/vendor/github.com/davecgh/go-spew/spew.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/stretchr/testify/vendor/github.com/pmezard/go-difflib/difflib.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/golang.org/x/net/context.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/gopkg.in/go-playground/validator.v8.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/gopkg.in/mgo.v2.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/gopkg.in/mgo.v2/bson.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/gopkg.in/mgo.v2/internal/json.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/gopkg.in/mgo.v2/internal/scram.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/gopkg.in/yaml.v2.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__WorkshopAPI_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WorkshopAPI.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/AUTHORS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/BENCHMARKS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/Godeps/Godeps.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/auth.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/auth_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/benchmarks_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/binding.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/binding_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/default_validator.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/example/test.pb.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/example/test.proto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/form.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/form_mapping.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/json.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/protobuf.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/validate_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/xml.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/context.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/context_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/debug.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/debug_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/deprecated.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/errors.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/errors_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/app-engine/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/app-engine/app.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/app-engine/hello.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/basic/main.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/main.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/resources/room_login.templ.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/resources/static/epoch.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/resources/static/epoch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/resources/static/prismjs.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/resources/static/prismjs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/resources/static/realtime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/rooms.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/routes.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/stats.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-chat/main.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-chat/rooms.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-chat/template.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/fs.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/gin.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/ginS/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/ginS/gins.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/gin_integration_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/gin_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/githubapi_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/helpers_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/logger.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/logger_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/middleware_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/mode.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/mode_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/path.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/path_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/recovery.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/recovery_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/data.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/html.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/json.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/redirect.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/render.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/render_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/text.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/xml.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/yaml.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/response_writer.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/response_writer_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/routergroup.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/routergroup_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/routes_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/tree.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/tree_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/utils.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/utils_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/wercker.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controller/Controller.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dao/DAO.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dao/DAO_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/DTO.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/JSON.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/route/Route.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/CreateBUService.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/CreateBUService_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/CreateDevService.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/CreateDevService_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/CreateSquadService.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/CreateSquadService_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/DeactiveBUService.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/DeactiveSquadService.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/DisplayDevService.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/DisplayDevService_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/DisplaySquadService.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/DisplaySquadService_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/GenerateID.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/GenerateID_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/InsertDevToSquadService.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/InsertDevToSquadService_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/InsertSquadToBUService.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/InstallSquadToBUService_test.go" />
+    </list>
+    <ignored path="WorkshopAPI.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/WorkshopAPI$DisplaySquadService_test_go.coverage" NAME="DisplaySquadService_test.go Coverage Results" MODIFIED="1475222999794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$GenerateID_test_go.coverage" NAME="GenerateID_test.go Coverage Results" MODIFIED="1475222993919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$InsertDevToSquadService_test_go.coverage" NAME="InsertDevToSquadService_test.go Coverage Results" MODIFIED="1475222987790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$DisplayDevService_test_go.coverage" NAME="DisplayDevService_test.go Coverage Results" MODIFIED="1475223003434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$DAO_test_go.coverage" NAME="DAO_test.go Coverage Results" MODIFIED="1475223024328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$CreateSquadService_test_go.coverage" NAME="CreateSquadService_test.go Coverage Results" MODIFIED="1475223007384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$CreateBUService_test_go.coverage" NAME="CreateBUService_test.go Coverage Results" MODIFIED="1475223015841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$CreateDevService_test_go.coverage" NAME="CreateDevService_test.go Coverage Results" MODIFIED="1475223012709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="WorkshopAPI" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="InsertDevToSquadService.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/InsertDevToSquadService.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="28" />
+              <folding>
+                <element signature="e#18#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertDevToSquadService_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/InsertDevToSquadService_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+              <folding>
+                <element signature="e#18#113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstallSquadToBUService_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/services/InstallSquadToBUService_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <folding>
+                <element signature="e#18#113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertSquadToBUService.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/InsertSquadToBUService.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+              <folding>
+                <marker date="1475146164017" expanded="true" signature="696:713" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/route/route.go" />
+        <option value="$PROJECT_DIR$/src/controller/controller.go" />
+        <option value="$PROJECT_DIR$/src/services/CreateBUServices.go" />
+        <option value="$PROJECT_DIR$/src/main.go" />
+        <option value="$PROJECT_DIR$/src/model/Dev.go" />
+        <option value="$PROJECT_DIR$/src/model/Squad.go" />
+        <option value="$PROJECT_DIR$/src/model/BU.go" />
+        <option value="$PROJECT_DIR$/src/services/DisplaySquad.go" />
+        <option value="$PROJECT_DIR$/src/services/DisplayDev.go" />
+        <option value="$PROJECT_DIR$/src/route/Route.go" />
+        <option value="$PROJECT_DIR$/src/services/DeactiveBUSerive.go" />
+        <option value="$PROJECT_DIR$/src/services/Tok.go" />
+        <option value="$PROJECT_DIR$/src/controller/Controller.go" />
+        <option value="$PROJECT_DIR$/src/model/JSON.go" />
+        <option value="$PROJECT_DIR$/src/model/BSON.go" />
+        <option value="$PROJECT_DIR$/src/model/DTO.go" />
+        <option value="$PROJECT_DIR$/src/services/DeactiveSquadService.go" />
+        <option value="$PROJECT_DIR$/src/services/DeactiveBUService.go" />
+        <option value="$PROJECT_DIR$/src/services/InsertSquadToBUService.go" />
+        <option value="$PROJECT_DIR$/src/services/TestCreateBUService.go" />
+        <option value="$PROJECT_DIR$/src/services/CreateBUService_Test.go" />
+        <option value="$PROJECT_DIR$/src/services/GenerateID.go" />
+        <option value="$PROJECT_DIR$/src/services/GenerateID_test.go" />
+        <option value="$PROJECT_DIR$/src/dao/DAO.go" />
+        <option value="$PROJECT_DIR$/src/services/CreateBUService.go" />
+        <option value="$PROJECT_DIR$/src/services/CreateSquadService.go" />
+        <option value="$PROJECT_DIR$/src/services/CreateDevService.go" />
+        <option value="$PROJECT_DIR$/src/services/DisplayDevService.go" />
+        <option value="$PROJECT_DIR$/src/services/DisplaySquadService.go" />
+        <option value="$PROJECT_DIR$/src/dao/DAO_test.go" />
+        <option value="$PROJECT_DIR$/src/services/CreateBUService_test.go" />
+        <option value="$PROJECT_DIR$/src/services/CreateDevService_test.go" />
+        <option value="$PROJECT_DIR$/src/services/CreateSquadService_test.go" />
+        <option value="$PROJECT_DIR$/src/services/DisplayDevService_test.go" />
+        <option value="$PROJECT_DIR$/src/services/DisplaySquadService_test.go" />
+        <option value="$PROJECT_DIR$/src/services/InsertDevToSquadService.go" />
+        <option value="$PROJECT_DIR$/src/services/InsertDevToSquadService_test.go" />
+        <option value="$PROJECT_DIR$/src/services/InstallSquadToBUService_test.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshopAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshopAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshopAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshopAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshopAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshopAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshopAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshopAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshopAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Go Test.DAO_test.go">
+    <configuration default="false" name="DisplayDevService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="WorkshopAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/services/DisplayDevService_test.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreateSquadService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="WorkshopAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/services/CreateSquadService_test.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreateDevService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="WorkshopAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/services/CreateDevService_test.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreateBUService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="WorkshopAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/services/CreateBUService_test.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DAO_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="WorkshopAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/dao/DAO_test.go" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="WorkshopAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="WorkshopAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="WorkshopAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="WorkshopAPI" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Go Test.DisplayDevService_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.CreateSquadService_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.CreateDevService_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.CreateBUService_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.DAO_test.go" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Test.DAO_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.CreateBUService_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.CreateDevService_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.CreateSquadService_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.DisplayDevService_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69a114be-d15a-461b-b7f3-df5fd668709c" name="Default" comment="" />
+      <created>1474969091234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1474969091234</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CreateBUService_test_go - 2016.09.30 at 15h 10m 17s.xml">
+      <configuration name="CreateBUService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CreateDevService_test_go - 2016.09.30 at 15h 10m 13s.xml">
+      <configuration name="CreateDevService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CreateSquadService_test_go - 2016.09.30 at 15h 10m 08s.xml">
+      <configuration name="CreateSquadService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="DAO_test_go - 2016.09.30 at 15h 10m 25s.xml">
+      <configuration name="DAO_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="DisplayDevService_test_go - 2016.09.30 at 15h 10m 04s.xml">
+      <configuration name="DisplayDevService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="DisplaySquadService_test_go - 2016.09.30 at 15h 10m 01s.xml">
+      <configuration name="DisplaySquadService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="GenerateID_test_go - 2016.09.30 at 15h 09m 55s.xml">
+      <configuration name="GenerateID_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="InsertDevToSquadService_test_go - 2016.09.30 at 15h 02m 49s.xml">
+      <configuration name="InsertDevToSquadService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="InsertDevToSquadService_test_go - 2016.09.30 at 15h 09m 39s.xml">
+      <configuration name="InsertDevToSquadService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="InsertDevToSquadService_test_go - 2016.09.30 at 15h 09m 49s.xml">
+      <configuration name="InsertDevToSquadService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34330708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18887262" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25768667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="e#14#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/CreateBUService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="e#18#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/route/Route.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Controller.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+          <folding>
+            <element signature="e#20#91#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/DisplayDevService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding>
+            <element signature="e#18#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/DAO.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/DisplaySquadService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#18#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/CreateBUService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding>
+            <element signature="e#18#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/route/Route.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Controller.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#20#91#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/BU.go" />
+    <entry file="file://$PROJECT_DIR$/src/model/Squad.go" />
+    <entry file="file://$PROJECT_DIR$/src/model/Dev.go" />
+    <entry file="file://$PROJECT_DIR$/src/github.com/gin-gonic/gin/render/json.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/gin-gonic/gin/context.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="418" column="31" selection-start-line="418" selection-start-column="31" selection-end-line="418" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/gin-gonic/gin/utils.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gopkg.in/mgo.v2/session.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="3790" column="0" selection-start-line="3790" selection-start-column="0" selection-end-line="3790" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/Tok.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#14#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/route/Route.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/BSON.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/JSON.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/DTO.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/DeactiveSquadService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#18#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/GenerateID_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="e#18#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/encoding/json/decode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="85" column="29" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Controller.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/stretchr/testify/assert/assertions.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="310" column="0" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/DisplayDevService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/DisplaySquadService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/GenerateID.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/CreateSquadService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="e#18#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/DeactiveBUService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/CreateDevService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#18#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/CreateBUService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#18#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/CreateBUService_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="e#18#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/CreateDevService_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="e#18#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/CreateSquadService_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#18#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/DisplayDevService_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#18#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/DisplaySquadService_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#18#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/DAO.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#13#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/DAO_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="144" column="18" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
+          <folding>
+            <element signature="e#13#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/InsertDevToSquadService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#18#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/InsertDevToSquadService_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+          <folding>
+            <element signature="e#18#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/InsertSquadToBUService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <marker date="1475146164017" expanded="true" signature="696:713" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/InstallSquadToBUService_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="e#18#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

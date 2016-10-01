@@ -4,12 +4,13 @@ import (
 	"dao"
 	"model"
 )
-var(
+
+var (
 	findallDisplaySquad = dao.FindAll
 )
 
-func DisplaySquadService()([]model.BU,error){
+func DisplaySquadService() ([]model.BU, error) {
 	var result []model.BU
-	err := findallDisplaySquad("BU",&result)
-	return result,err
+	err := findallDisplaySquad("BU", &result)
+	return result, err
 }

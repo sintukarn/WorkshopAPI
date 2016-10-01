@@ -1,11 +1,11 @@
 package route
 
 import (
-	"github.com/gin-gonic/gin"
 	"controller"
+	"github.com/gin-gonic/gin"
 )
 
-func RunREST()  {
+func RunREST() {
 	router := gin.Default()
 
 	router.POST("/createBU", func(c *gin.Context) {

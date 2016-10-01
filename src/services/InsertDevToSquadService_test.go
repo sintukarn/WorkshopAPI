@@ -90,5 +90,3 @@ func TestInsertDevToSquadService_UpdateExceptError_WhenMockDAO_ReturnError(t *te
 	assert.Nil(actual,"When Dao Update Return Error result should be nil")
 	assert.Error(err,"When Dao Update Return Error should be return error")
 }
-
-

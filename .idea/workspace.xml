@@ -2,137 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a114be-d15a-461b-b7f3-df5fd668709c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/gin-gonic/gin.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/gin-gonic/gin/binding.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/gin-gonic/gin/render.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/golang/protobuf/proto.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/manucorporat/sse.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/stretchr/testify/assert.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/stretchr/testify/vendor/github.com/davecgh/go-spew/spew.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/stretchr/testify/vendor/github.com/pmezard/go-difflib/difflib.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/golang.org/x/net/context.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/gopkg.in/go-playground/validator.v8.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/gopkg.in/mgo.v2.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/gopkg.in/mgo.v2/bson.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/gopkg.in/mgo.v2/internal/json.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/gopkg.in/mgo.v2/internal/scram.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/windows_amd64/gopkg.in/yaml.v2.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__WorkshopAPI_.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WorkshopAPI.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/AUTHORS.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/BENCHMARKS.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/Godeps/Godeps.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/auth.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/auth_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/benchmarks_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/binding.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/binding_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/default_validator.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/example/test.pb.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/example/test.proto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/form.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/form_mapping.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/json.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/protobuf.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/validate_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/binding/xml.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/context.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/context_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/debug.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/debug_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/deprecated.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/errors.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/errors_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/app-engine/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/app-engine/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/app-engine/hello.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/basic/main.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/main.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/resources/room_login.templ.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/resources/static/epoch.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/resources/static/epoch.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/resources/static/prismjs.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/resources/static/prismjs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/resources/static/realtime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/rooms.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/routes.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-advanced/stats.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-chat/main.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-chat/rooms.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/examples/realtime-chat/template.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/fs.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/gin.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/ginS/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/ginS/gins.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/gin_integration_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/gin_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/githubapi_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/helpers_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/logger.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/logger_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/middleware_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/mode.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/mode_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/path.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/path_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/recovery.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/recovery_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/data.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/html.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/json.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/redirect.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/render.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/render_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/text.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/xml.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/render/yaml.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/response_writer.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/response_writer_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/routergroup.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/routergroup_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/routes_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/tree.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/tree_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/utils.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/utils_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gin-develop/wercker.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controller/Controller.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dao/DAO.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dao/DAO_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/DTO.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/JSON.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/route/Route.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/CreateBUService.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/CreateBUService_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/CreateDevService.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/CreateDevService_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/CreateSquadService.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/CreateSquadService_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/DeactiveBUService.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/DeactiveSquadService.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/DisplayDevService.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/DisplayDevService_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/DisplaySquadService.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/DisplaySquadService_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/GenerateID.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/GenerateID_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/InsertDevToSquadService.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/InsertDevToSquadService_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/InsertSquadToBUService.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/InstallSquadToBUService_test.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/services/InsertDevToSquadService_test.go" afterPath="$PROJECT_DIR$/src/services/InsertDevToSquadService_test.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/services/InsertSquadToBUService.go" afterPath="$PROJECT_DIR$/src/services/InsertSquadToBUService.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/services/InstallSquadToBUService_test.go" afterPath="$PROJECT_DIR$/src/services/InstallSquadToBUService_test.go" />
     </list>
     <ignored path="WorkshopAPI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -150,11 +22,12 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/WorkshopAPI$DisplaySquadService_test_go.coverage" NAME="DisplaySquadService_test.go Coverage Results" MODIFIED="1475222999794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/WorkshopAPI$GenerateID_test_go.coverage" NAME="GenerateID_test.go Coverage Results" MODIFIED="1475222993919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/WorkshopAPI$InsertDevToSquadService_test_go.coverage" NAME="InsertDevToSquadService_test.go Coverage Results" MODIFIED="1475222987790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/WorkshopAPI$DisplayDevService_test_go.coverage" NAME="DisplayDevService_test.go Coverage Results" MODIFIED="1475223003434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/WorkshopAPI$DAO_test_go.coverage" NAME="DAO_test.go Coverage Results" MODIFIED="1475223024328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$InsertDevToSquadService_test_go.coverage" NAME="InsertDevToSquadService_test.go Coverage Results" MODIFIED="1475316764942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/WorkshopAPI$CreateSquadService_test_go.coverage" NAME="CreateSquadService_test.go Coverage Results" MODIFIED="1475223007384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/WorkshopAPI$CreateBUService_test_go.coverage" NAME="CreateBUService_test.go Coverage Results" MODIFIED="1475223015841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$InstallSquadToBUService_test_go.coverage" NAME="InstallSquadToBUService_test.go Coverage Results" MODIFIED="1475316760264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/WorkshopAPI$CreateDevService_test_go.coverage" NAME="CreateDevService_test.go Coverage Results" MODIFIED="1475223012709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageOptionsProvider">
@@ -172,10 +45,35 @@
       <file leaf-file-name="InsertDevToSquadService.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/services/InsertDevToSquadService.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="425">
+              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
               <folding>
                 <element signature="e#18#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstallSquadToBUService_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/InstallSquadToBUService_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+              <folding>
+                <element signature="e#18#113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertSquadToBUService.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/services/InsertSquadToBUService.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="27" />
+              <folding>
+                <element signature="e#18#76#0" expanded="true" />
+                <marker date="1475316198819" expanded="true" signature="867:885" ph="..." />
               </folding>
             </state>
           </provider>
@@ -184,34 +82,10 @@
       <file leaf-file-name="InsertDevToSquadService_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/services/InsertDevToSquadService_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+            <state relative-caret-position="107">
+              <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
               <folding>
                 <element signature="e#18#113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InstallSquadToBUService_test.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/services/InstallSquadToBUService_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding>
-                <element signature="e#18#113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertSquadToBUService.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/InsertSquadToBUService.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-              <folding>
-                <marker date="1475146164017" expanded="true" signature="696:713" ph="..." />
               </folding>
             </state>
           </provider>
@@ -256,7 +130,6 @@
         <option value="$PROJECT_DIR$/src/model/DTO.go" />
         <option value="$PROJECT_DIR$/src/services/DeactiveSquadService.go" />
         <option value="$PROJECT_DIR$/src/services/DeactiveBUService.go" />
-        <option value="$PROJECT_DIR$/src/services/InsertSquadToBUService.go" />
         <option value="$PROJECT_DIR$/src/services/TestCreateBUService.go" />
         <option value="$PROJECT_DIR$/src/services/CreateBUService_Test.go" />
         <option value="$PROJECT_DIR$/src/services/GenerateID.go" />
@@ -274,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/services/DisplayDevService_test.go" />
         <option value="$PROJECT_DIR$/src/services/DisplaySquadService_test.go" />
         <option value="$PROJECT_DIR$/src/services/InsertDevToSquadService.go" />
+        <option value="$PROJECT_DIR$/src/services/InsertSquadToBUService.go" />
         <option value="$PROJECT_DIR$/src/services/InsertDevToSquadService_test.go" />
         <option value="$PROJECT_DIR$/src/services/InstallSquadToBUService_test.go" />
       </list>
@@ -389,23 +263,7 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Test.DAO_test.go">
-    <configuration default="false" name="DisplayDevService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="WorkshopAPI" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/services/DisplayDevService_test.go" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CreateSquadService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="WorkshopAPI" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/services/CreateSquadService_test.go" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Go Test.InsertDevToSquadService_test.go">
     <configuration default="false" name="CreateDevService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="WorkshopAPI" />
       <working_directory value="$PROJECT_DIR$" />
@@ -428,6 +286,22 @@
       <framework value="gotest" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/dao/DAO_test.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="InstallSquadToBUService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="WorkshopAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/services/InstallSquadToBUService_test.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="InsertDevToSquadService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="WorkshopAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/services/InsertDevToSquadService_test.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -695,19 +569,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.DisplayDevService_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.CreateSquadService_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.CreateDevService_test.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.CreateBUService_test.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.DAO_test.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.CreateDevService_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.CreateBUService_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.DAO_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.InstallSquadToBUService_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.InsertDevToSquadService_test.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.DAO_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.CreateBUService_test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.CreateDevService_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.CreateSquadService_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.DisplayDevService_test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.InsertDevToSquadService_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.InstallSquadToBUService_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.DAO_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.CreateBUService_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.CreateDevService_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -728,36 +602,36 @@
     <history-entry file="CreateBUService_test_go - 2016.09.30 at 15h 10m 17s.xml">
       <configuration name="CreateBUService_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="CreateDevService_test_go - 2016.09.30 at 15h 10m 13s.xml">
-      <configuration name="CreateDevService_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="CreateSquadService_test_go - 2016.09.30 at 15h 10m 08s.xml">
-      <configuration name="CreateSquadService_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="DAO_test_go - 2016.09.30 at 15h 10m 25s.xml">
       <configuration name="DAO_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DisplayDevService_test_go - 2016.09.30 at 15h 10m 04s.xml">
-      <configuration name="DisplayDevService_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="DisplaySquadService_test_go - 2016.09.30 at 15h 10m 01s.xml">
-      <configuration name="DisplaySquadService_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="GenerateID_test_go - 2016.09.30 at 15h 09m 55s.xml">
-      <configuration name="GenerateID_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="InsertDevToSquadService_test_go - 2016.09.30 at 15h 02m 49s.xml">
+    <history-entry file="InsertDevToSquadService_test_go - 2016.10.01 at 17h 12m 46s.xml">
       <configuration name="InsertDevToSquadService_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="InsertDevToSquadService_test_go - 2016.09.30 at 15h 09m 39s.xml">
-      <configuration name="InsertDevToSquadService_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="InstallSquadToBUService_test_go - 2016.10.01 at 17h 01m 34s.xml">
+      <configuration name="InstallSquadToBUService_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="InsertDevToSquadService_test_go - 2016.09.30 at 15h 09m 49s.xml">
-      <configuration name="InsertDevToSquadService_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="InstallSquadToBUService_test_go - 2016.10.01 at 17h 03m 20s.xml">
+      <configuration name="InstallSquadToBUService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="InstallSquadToBUService_test_go - 2016.10.01 at 17h 04m 19s.xml">
+      <configuration name="InstallSquadToBUService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="InstallSquadToBUService_test_go - 2016.10.01 at 17h 04m 23s.xml">
+      <configuration name="InstallSquadToBUService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="InstallSquadToBUService_test_go - 2016.10.01 at 17h 07m 29s.xml">
+      <configuration name="InstallSquadToBUService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="InstallSquadToBUService_test_go - 2016.10.01 at 17h 09m 28s.xml">
+      <configuration name="InstallSquadToBUService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="InstallSquadToBUService_test_go - 2016.10.01 at 17h 12m 41s.xml">
+      <configuration name="InstallSquadToBUService_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1178,8 +1052,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/services/InsertDevToSquadService.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="425">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding>
             <element signature="e#18#75#0" expanded="true" />
           </folding>
@@ -1188,8 +1062,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/services/InsertDevToSquadService_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        <state relative-caret-position="107">
+          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+          <folding>
+            <element signature="e#18#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/InstallSquadToBUService_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
           <folding>
             <element signature="e#18#113#0" expanded="true" />
           </folding>
@@ -1198,20 +1082,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/services/InsertSquadToBUService.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="238">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="27" />
           <folding>
-            <marker date="1475146164017" expanded="true" signature="696:713" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/InstallSquadToBUService_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#18#113#0" expanded="true" />
+            <element signature="e#18#76#0" expanded="true" />
+            <marker date="1475316198819" expanded="true" signature="867:885" ph="..." />
           </folding>
         </state>
       </provider>

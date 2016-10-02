@@ -14,24 +14,24 @@ func DeactiveSquadService(name string, b string) (*model.Squad, error) {
 		return nil, err
 	}
 	update_date := time.Now().Unix()
-	find := bson.M{"name": name}
-	update := bson.M{"$set": bson.M{"update_date": update_date, "active": b}}
-	err = dao.Update("squad", find, update)
-	if err != nil {
-		return nil, err
-	}
 	var resultsquad model.Squad
 	err = dao.FindOne("squad", name, &resultsquad)
 	if err != nil {
 		return nil, err
 	}
+	var newDevs []*model.Dev
 	for i := range resultsquad.Devs {
-		dev := bson.M{"name": resultsquad.Devs[i].Name}
-		update = bson.M{"$set": bson.M{"update_date": update_date, "active": b}}
-		err = dao.Update("dev", dev, update)
+		dev,err := DeactiveDevService(resultsquad.Devs[i].Name,b)
 		if err != nil {
 			return nil, err
 		}
+		newDevs = append(newDevs,dev)
+	}
+	find := bson.M{"name": name}
+	update := bson.M{"$set": bson.M{"devs" : newDevs ,"update_date": update_date, "active": b}}
+	err = dao.Update("squad", find, update)
+	if err != nil {
+		return nil, err
 	}
 	var result model.Squad
 	err = dao.FindOne("squad", name, &result)

@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-func DeactiveSquadService(name string, b string) (interface{}, error) {
+func DeactiveSquadService(name string, b string) (*model.Squad, error) {
 	var resultSquad model.Squad
 	err := dao.FindOne("squad", name, &resultSquad)
 	if err != nil {

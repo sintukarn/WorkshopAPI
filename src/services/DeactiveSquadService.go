@@ -7,21 +7,24 @@ import (
 	"time"
 )
 
+var(
+	findoneDeactiveSquadBefore = dao.FindOne
+	findoneDeactiveSquadAfter = dao.FindOne
+	updateDeactiveSquad = dao.Update
+	deacDev = DeactiveDevService
+
+)
+
 func DeactiveSquadService(name string, b string) (*model.Squad, error) {
-	var resultSquad model.Squad
-	err := dao.FindOne("squad", name, &resultSquad)
-	if err != nil {
-		return nil, err
-	}
 	update_date := time.Now().Unix()
-	var resultsquad model.Squad
-	err = dao.FindOne("squad", name, &resultsquad)
+	var resultSquad model.Squad
+	err := findoneDeactiveSquadBefore("squad", name, &resultSquad)
 	if err != nil {
 		return nil, err
 	}
 	var newDevs []*model.Dev
-	for i := range resultsquad.Devs {
-		dev,err := DeactiveDevService(resultsquad.Devs[i].Name,b)
+	for i := range resultSquad.Devs {
+		dev,err := deacDev(resultSquad.Devs[i].Name,b)
 		if err != nil {
 			return nil, err
 		}
@@ -29,11 +32,11 @@ func DeactiveSquadService(name string, b string) (*model.Squad, error) {
 	}
 	find := bson.M{"name": name}
 	update := bson.M{"$set": bson.M{"devs" : newDevs ,"update_date": update_date, "active": b}}
-	err = dao.Update("squad", find, update)
+	err = updateDeactiveSquad("squad", find, update)
 	if err != nil {
 		return nil, err
 	}
 	var result model.Squad
-	err = dao.FindOne("squad", name, &result)
+	err = findoneDeactiveSquadAfter("squad", name, &result)
 	return &result, err
 }

@@ -16,12 +16,12 @@ var(
 )
 
 func DeactiveSquadService(name string, b string) (*model.Squad, error) {
-	update_date := time.Now().Unix()
 	var resultSquad model.Squad
 	err := findoneDeactiveSquadBefore("squad", name, &resultSquad)
 	if err != nil {
 		return nil, err
 	}
+	update_date := time.Now().Unix()
 	var newDevs []*model.Dev
 	for i := range resultSquad.Devs {
 		dev,err := deacDev(resultSquad.Devs[i].Name,b)

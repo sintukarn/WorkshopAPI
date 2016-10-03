@@ -7,44 +7,35 @@ import (
 	"time"
 )
 
-func DeactiveBUService(name string, b string) (interface{}, error) {
+var (
+	fineoneDeactiveBUBefore = dao.FindOne
+	fineoneDeactiveBUAfter  = dao.FindOne
+	updateDeactiveBU        = dao.Update
+	deacSquad               = DeactiveSquadService
+)
+
+func DeactiveBUService(name string, b string) (*model.BU, error) {
 	var resultBU model.BU
-	err := dao.FindOne("BU", name, &resultBU)
+	err := fineoneDeactiveBUBefore("BU", name, &resultBU)
 	if err != nil {
 		return nil, err
 	}
 	update_date := time.Now().Unix()
+	var newSquads []*model.Squad
+	for i := range resultBU.Squads {
+		squad, err := deacSquad(resultBU.Squads[i].Name, b)
+		if err != nil {
+			return nil, err
+		}
+		newSquads = append(newSquads, squad)
+	}
 	find := bson.M{"name": name}
-	update := bson.M{"$set": bson.M{"update_date": update_date, "active": b}}
-	err = dao.Update("BU", find, update)
+	update := bson.M{"$set": bson.M{"squads": newSquads, "update_date": update_date, "active": b}}
+	err = updateDeactiveBU("BU", find, update)
 	if err != nil {
 		return nil, err
 	}
-	var resultbu model.BU
-	err = dao.FindOne("BU", name, &resultbu)
-
-	for i := range resultbu.Squads {
-		squad := bson.M{"name": resultbu.Squads[i].Name}
-		update = bson.M{"$set": bson.M{"update_date": update_date}, "active": b}
-		err = dao.Update("squad", squad, update)
-		if err != nil {
-			return nil, err
-		}
-		var resultSquad model.Squad
-		err := dao.FindOne("squad", name, &resultSquad)
-		if err != nil {
-			return nil, err
-		}
-		for j := range resultSquad.Devs {
-			dev := resultSquad.Devs[j]
-			update = bson.M{"$set": bson.M{"update_date": update_date, "active": b}}
-			err = dao.Update("dev", dev, update)
-			if err != nil {
-				return nil, err
-			}
-		}
-	}
 	var findBU model.BU
-	err = dao.FindOne("BU", name, &findBU)
+	err = fineoneDeactiveBUAfter("BU", name, &findBU)
 	return &findBU, err
 }

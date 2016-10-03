@@ -1,18 +1,19 @@
 package services
 
 import (
-	"model"
 	"dao"
-	"time"
 	"gopkg.in/mgo.v2/bson"
-)
-var (
-	findoneDeactiveDevBefore = dao.FindOne
-	findoneDeactiveDevAfter = dao.FindOne
-	updateDeactiveDev = dao.Update
+	"model"
+	"time"
 )
 
-func DeactiveDevService(name string,b string)(*model.Dev,error){
+var (
+	findoneDeactiveDevBefore = dao.FindOne
+	findoneDeactiveDevAfter  = dao.FindOne
+	updateDeactiveDev        = dao.Update
+)
+
+func DeactiveDevService(name string, b string) (*model.Dev, error) {
 	var resultDev model.Dev
 	err := findoneDeactiveDevBefore("dev", name, &resultDev)
 	if err != nil {
@@ -30,5 +31,5 @@ func DeactiveDevService(name string,b string)(*model.Dev,error){
 	if err != nil {
 		return nil, err
 	}
-	return &result,nil
+	return &result, nil
 }

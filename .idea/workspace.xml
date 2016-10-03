@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a114be-d15a-461b-b7f3-df5fd668709c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/services/DeactiveBUService.go" afterPath="$PROJECT_DIR$/src/services/DeactiveBUService.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/services/DeactiveBUService_test.go" afterPath="$PROJECT_DIR$/src/services/DeactiveBUService_test.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/services/DeactiveDevService.go" afterPath="$PROJECT_DIR$/src/services/DeactiveDevService.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/services/DeactiveDevService_test.go" afterPath="$PROJECT_DIR$/src/services/DeactiveDevService_test.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/services/DeactiveSquadService.go" afterPath="$PROJECT_DIR$/src/services/DeactiveSquadService.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/services/DeactiveSquadService_test.go" afterPath="$PROJECT_DIR$/src/services/DeactiveSquadService_test.go" />
     </list>
     <ignored path="WorkshopAPI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,18 +21,18 @@
     <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/WorkshopAPI$DisplaySquadService_test_go.coverage" NAME="DisplaySquadService_test.go Coverage Results" MODIFIED="1475395372056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/WorkshopAPI$DeactiveDevService_test_go.coverage" NAME="DeactiveDevService_test.go Coverage Results" MODIFIED="1475461820153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/WorkshopAPI$GenerateID_test_go.coverage" NAME="GenerateID_test.go Coverage Results" MODIFIED="1475395365298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/WorkshopAPI$InsertDevToSquadService_test_go.coverage" NAME="InsertDevToSquadService_test.go Coverage Results" MODIFIED="1475395360018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/WorkshopAPI$DisplayDevService_test_go.coverage" NAME="DisplayDevService_test.go Coverage Results" MODIFIED="1475395378932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/WorkshopAPI$DAO_test_go.coverage" NAME="DAO_test.go Coverage Results" MODIFIED="1475395499053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/WorkshopAPI$CreateSquadService_test_go.coverage" NAME="CreateSquadService_test.go Coverage Results" MODIFIED="1475395398929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/WorkshopAPI$CreateBUService_test_go.coverage" NAME="CreateBUService_test.go Coverage Results" MODIFIED="1475395511627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/WorkshopAPI$InstallSquadToBUService_test_go.coverage" NAME="InstallSquadToBUService_test.go Coverage Results" MODIFIED="1475395354281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/WorkshopAPI$DeactiveSquadService_test_go.coverage" NAME="DeactiveSquadService_test.go Coverage Results" MODIFIED="1475461836020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/WorkshopAPI$CreateDevService_test_go.coverage" NAME="CreateDevService_test.go Coverage Results" MODIFIED="1475395518276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/WorkshopAPI$DeactiveBUService_test_go.coverage" NAME="DeactiveBUService_test.go Coverage Results" MODIFIED="1475461825684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$DeactiveDevService_test_go.coverage" NAME="DeactiveDevService_test.go Coverage Results" MODIFIED="1475462354491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$DisplaySquadService_test_go.coverage" NAME="DisplaySquadService_test.go Coverage Results" MODIFIED="1475462370240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$GenerateID_test_go.coverage" NAME="GenerateID_test.go Coverage Results" MODIFIED="1475462375593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$DAO_test_go.coverage" NAME="DAO_test.go Coverage Results" MODIFIED="1475462321460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$DisplayDevService_test_go.coverage" NAME="DisplayDevService_test.go Coverage Results" MODIFIED="1475462364930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$InsertDevToSquadService_test_go.coverage" NAME="InsertDevToSquadService_test.go Coverage Results" MODIFIED="1475462380714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$CreateSquadService_test_go.coverage" NAME="CreateSquadService_test.go Coverage Results" MODIFIED="1475462339520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$CreateBUService_test_go.coverage" NAME="CreateBUService_test.go Coverage Results" MODIFIED="1475462327544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$DeactiveSquadService_test_go.coverage" NAME="DeactiveSquadService_test.go Coverage Results" MODIFIED="1475462359842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$InstallSquadToBUService_test_go.coverage" NAME="InstallSquadToBUService_test.go Coverage Results" MODIFIED="1475462385296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$CreateDevService_test_go.coverage" NAME="CreateDevService_test.go Coverage Results" MODIFIED="1475462333990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorkshopAPI$DeactiveBUService_test_go.coverage" NAME="DeactiveBUService_test.go Coverage Results" MODIFIED="1475462349166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageOptionsProvider">
     <option name="myAddOrReplace" value="1" />
@@ -47,56 +48,7 @@
     <favorites_list name="WorkshopAPI" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DeactiveBUService.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/DeactiveBUService.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding>
-                <element signature="e#18#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeactiveBUService_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/DeactiveBUService_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-              <folding>
-                <element signature="e#18#103#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeactiveSquadService.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/services/DeactiveSquadService.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding>
-                <element signature="e#18#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeactiveSquadService_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/DeactiveSquadService_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
-              <folding>
-                <element signature="e#18#113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -156,9 +108,9 @@
         <option value="$PROJECT_DIR$/src/services/DeactiveDevService_test.go" />
         <option value="$PROJECT_DIR$/src/services/CreateSquadService_test.go" />
         <option value="$PROJECT_DIR$/src/services/DeactiveSquadService_test.go" />
+        <option value="$PROJECT_DIR$/src/services/DeactiveBUService.go" />
         <option value="$PROJECT_DIR$/src/services/DeactiveSquadService.go" />
         <option value="$PROJECT_DIR$/src/services/DeactiveBUService_test.go" />
-        <option value="$PROJECT_DIR$/src/services/DeactiveBUService.go" />
       </list>
     </option>
   </component>
@@ -290,43 +242,45 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Test.DeactiveSquadService_test.go">
-    <configuration default="false" name="CreateDevService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+  <component name="RunManager" selected="Go Test.InstallSquadToBUService_test.go">
+    <configuration default="false" name="DisplayDevService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="WorkshopAPI" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/services/CreateDevService_test.go" />
+      <filePath value="$PROJECT_DIR$/src/services/DisplayDevService_test.go" />
       <method />
     </configuration>
-    <configuration default="false" name="go run main.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="WorkshopAPI" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/main.go" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DeactiveSquadService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration default="false" name="DisplaySquadService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="WorkshopAPI" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/services/DeactiveSquadService_test.go" />
+      <filePath value="$PROJECT_DIR$/src/services/DisplaySquadService_test.go" />
       <method />
     </configuration>
-    <configuration default="false" name="DeactiveBUService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration default="false" name="GenerateID_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="WorkshopAPI" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/services/DeactiveBUService_test.go" />
+      <filePath value="$PROJECT_DIR$/src/services/GenerateID_test.go" />
       <method />
     </configuration>
-    <configuration default="false" name="DeactiveDevService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration default="false" name="InsertDevToSquadService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="WorkshopAPI" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/services/DeactiveDevService_test.go" />
+      <filePath value="$PROJECT_DIR$/src/services/InsertDevToSquadService_test.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="InstallSquadToBUService_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="WorkshopAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/services/InstallSquadToBUService_test.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -594,19 +548,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.CreateDevService_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.DeactiveSquadService_test.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.DeactiveBUService_test.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.DeactiveDevService_test.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.DisplayDevService_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.DisplaySquadService_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.GenerateID_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.InsertDevToSquadService_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.InstallSquadToBUService_test.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.DeactiveSquadService_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.DeactiveBUService_test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.DeactiveDevService_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.CreateDevService_test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.InstallSquadToBUService_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.InsertDevToSquadService_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.GenerateID_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.DisplaySquadService_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.DisplayDevService_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -624,40 +578,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeactiveBUService_test_go - 2016.10.03 at 09h 27m 39s.xml">
+    <history-entry file="CreateDevService_test_go - 2016.10.03 at 09h 38m 57s.xml">
+      <configuration name="CreateDevService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CreateSquadService_test_go - 2016.10.03 at 09h 39m 02s.xml">
+      <configuration name="CreateSquadService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="DeactiveBUService_test_go - 2016.10.03 at 09h 39m 12s.xml">
       <configuration name="DeactiveBUService_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DeactiveBUService_test_go - 2016.10.03 at 09h 27m 59s.xml">
-      <configuration name="DeactiveBUService_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="DeactiveBUService_test_go - 2016.10.03 at 09h 28m 05s.xml">
-      <configuration name="DeactiveBUService_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="DeactiveBUService_test_go - 2016.10.03 at 09h 28m 26s.xml">
-      <configuration name="DeactiveBUService_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="DeactiveBUService_test_go - 2016.10.03 at 09h 28m 34s.xml">
-      <configuration name="DeactiveBUService_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="DeactiveBUService_test_go - 2016.10.03 at 09h 28m 52s.xml">
-      <configuration name="DeactiveBUService_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="DeactiveBUService_test_go - 2016.10.03 at 09h 30m 29s.xml">
-      <configuration name="DeactiveBUService_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="DeactiveDevService_test_go - 2016.10.03 at 09h 30m 23s.xml">
+    <history-entry file="DeactiveDevService_test_go - 2016.10.03 at 09h 39m 17s.xml">
       <configuration name="DeactiveDevService_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DeactiveSquadService_test_go - 2016.10.03 at 09h 30m 15s.xml">
+    <history-entry file="DeactiveSquadService_test_go - 2016.10.03 at 09h 39m 22s.xml">
       <configuration name="DeactiveSquadService_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DeactiveSquadService_test_go - 2016.10.03 at 09h 30m 39s.xml">
-      <configuration name="DeactiveSquadService_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="DisplayDevService_test_go - 2016.10.03 at 09h 39m 27s.xml">
+      <configuration name="DisplayDevService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="DisplaySquadService_test_go - 2016.10.03 at 09h 39m 33s.xml">
+      <configuration name="DisplaySquadService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="GenerateID_test_go - 2016.10.03 at 09h 39m 38s.xml">
+      <configuration name="GenerateID_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="InsertDevToSquadService_test_go - 2016.10.03 at 09h 39m 43s.xml">
+      <configuration name="InsertDevToSquadService_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="InstallSquadToBUService_test_go - 2016.10.03 at 09h 39m 48s.xml">
+      <configuration name="InstallSquadToBUService_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -667,7 +621,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34330708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18887262" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18887262" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -698,7 +652,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1084,16 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/DeactiveDevService.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#18#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/DeactiveDevService_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1104,40 +1048,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/DeactiveBUService_test.go">
+    <entry file="file://$PROJECT_DIR$/src/services/DeactiveSquadService.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-          <folding>
-            <element signature="e#18#103#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-323">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/services/DeactiveBUService.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="188">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
             <element signature="e#18#76#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/DeactiveSquadService_test.go">
+    <entry file="file://$PROJECT_DIR$/src/services/DeactiveBUService_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+        <state relative-caret-position="236">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
           <folding>
             <element signature="e#18#113#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/DeactiveSquadService.go">
+    <entry file="file://$PROJECT_DIR$/src/services/DeactiveSquadService_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="187">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/DeactiveDevService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#18#76#0" expanded="true" />
           </folding>

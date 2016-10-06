@@ -30,6 +30,7 @@ func InsertDevToSquadService(unit string, target string) (*model.Squad, error) {
 	if err != nil {
 		return nil, err
 	}
+	UpdateSquadinBUService(target)
 	var result model.Squad
 	err = findoneInsertDevtoSquadAfter("squad", target, &result)
 	return &result, err

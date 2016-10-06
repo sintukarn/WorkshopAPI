@@ -3,10 +3,22 @@ package route
 import (
 	"controller"
 	"github.com/gin-gonic/gin"
+	"time"
+	"github.com/itsjamie/gin-cors"
 )
 
 func RunREST() {
 	router := gin.Default()
+	
+	router.Use(cors.Middleware(cors.Config{
+		Origins:         "*",
+		Methods:         "GET, PUT, POST, DELETE",
+		RequestHeaders:  "Origin, Authorization, Content-Type",
+		ExposedHeaders:  "",
+		MaxAge:          50 * time.Second,
+		Credentials:     true,
+		ValidateHeaders: false,
+	}))
 
 	router.POST("/createBU", func(c *gin.Context) {
 		controller.CreateBU(c)

@@ -37,6 +37,7 @@ func DeactiveSquadService(name string, b string) (*model.Squad, error) {
 	if err != nil {
 		return nil, err
 	}
+	UpdateSquadinBUService(name)
 	var result model.Squad
 	err = findoneDeactiveSquadAfter("squad", name, &result)
 	return &result, err
